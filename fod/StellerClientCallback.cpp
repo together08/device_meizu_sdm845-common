@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The MoKee Open Source Project
+ * Copyright (C) 2020 The lineage Open Source Project
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -12,7 +12,7 @@
 #include <android-base/logging.h>
 
 namespace vendor {
-namespace mokee {
+namespace lineage {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -37,5 +37,5 @@ Return<void> StellerClientCallback::hbmCtrl(int32_t ret) {
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace mokee
+}  // namespace lineage
 }  // namespace vendor
